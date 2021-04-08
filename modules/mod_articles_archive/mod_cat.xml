@@ -9,7 +9,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <version>1.0</version>
     <description>MOD_CAT_XML_DESCRIPTION</description>
-	<namespace>Joomla\Module\Foo</namespace>
+    <namespace>Joomla\Module\Foo</namespace>
     <files>
         <filename module="mod_cat">mod_cat.php</filename>
         <folder>tmpl</folder>
