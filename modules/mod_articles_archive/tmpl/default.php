@@ -25,5 +25,5 @@ if (!$list)
 	<?php endforeach; ?>
 </ul>
 <?php
-echo '[Module Cat Test]';
+echo '[Module Cat Test]' . $test;
 ?>
