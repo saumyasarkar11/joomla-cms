@@ -1,16 +1,16 @@
 <?php
 /**
- * @package     J4xdemos.Module
- * @subpackage  mod_mydownmsg
+ * @package    [PACKAGE_NAME]
  *
- * @copyright   Copyright (C) 2019 Clifford E Ford. All rights reserved.
- * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ * @author     [AUTHOR] <[AUTHOR_EMAIL]>
+ * @copyright  [COPYRIGHT]
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @link       [AUTHOR_URL]
  */
 
+// No direct access to this file
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Helper\ModuleHelper;
 
-// get the message option
-
-require ModuleHelper::getLayoutPath('mod_cat', $params->get('layout', 'default'));
+require ModuleHelper::getLayoutPath('mod_foo', $params->get('layout', 'default'));
