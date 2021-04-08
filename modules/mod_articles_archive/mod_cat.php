@@ -12,5 +12,8 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Helper\ModuleHelper;
+use Joomla\Module\Cat\Site\Helper\CatHelper;
+
+$test  = CatHelper::getText();
 
 require ModuleHelper::getLayoutPath('mod_cat', $params->get('layout', 'default'));
