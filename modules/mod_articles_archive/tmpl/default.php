@@ -24,3 +24,5 @@ if (!$list)
 	</li>
 	<?php endforeach; ?>
 </ul>
+
+echo '[Module Cat Test]';
