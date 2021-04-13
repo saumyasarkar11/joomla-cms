@@ -12,7 +12,6 @@
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Helper\ModuleHelper;
-use Joomla\Module\Foo\Site\Helper\FooHelper;
 use Joomla\CMS\Session\Session;
 
 $url="index.php?option=com_ajax&module=foo&method=getData&format=json&".Session::getFormToken()."=1";
