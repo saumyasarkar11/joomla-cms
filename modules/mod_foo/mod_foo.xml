@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="4.0" client="site" method="upgrade">
-    <name>MOD_CAT</name>
+    <name>MOD_FOO</name>
     <creationDate>[DATE]</creationDate>
     <author>[AUTHOR]</author>
     <authorEmail>[AUTHOR_EMAIL]</authorEmail>
@@ -8,13 +8,13 @@
     <copyright>[COPYRIGHT]</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <version>1.0</version>
-    <description>MOD_CAT_XML_DESCRIPTION</description>
+    <description>MOD_FOO_XML_DESCRIPTION</description>
     <namespace>Joomla\Module\Foo</namespace>
     <files>
-        <filename module="mod_cat">mod_cat.php</filename>
+        <filename module="mod_foo">mod_foo.php</filename>
         <folder>tmpl</folder>
-	<folder>Helper</folder>
+        <folder>src</folder>
         <folder>language</folder>
-        <filename>mod_cat.xml</filename>
+        <filename>mod_foo.xml</filename>
     </files>
 </extension>
