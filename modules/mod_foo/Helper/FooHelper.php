@@ -7,7 +7,7 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-namespace Joomla\Module\Cat\Site\Helper;
+namespace Joomla\Module\Foo\Site\Helper;
 
 // No direct access to this file
 defined('_JEXEC') or die;
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  *
  * @since  4.0
  */
-class CatHelper
+class FooHelper
 {
 	/**
 	 * Retrieve foo test
@@ -29,6 +29,6 @@ class CatHelper
 	 */
 	public static function getText()
 	{
-		return 'CatHelpertest';
+		return 'FooHelpertest';
 	}
 }
